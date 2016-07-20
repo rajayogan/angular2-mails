@@ -1,0 +1,9 @@
+export class Ang2emailPage {
+  navigateTo() {
+    return browser.get('/');
+  }
+
+  getParagraphText() {
+    return element(by.css('app-root h1')).getText();
+  }
+}
